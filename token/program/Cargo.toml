@@ -17,15 +17,18 @@ arrayref = "0.3.6"
 num-derive = "0.3"
 num-traits = "0.2"
 num_enum = "0.5.4"
-solana-program = "1.9.5"
 thiserror = "1.0"
+
+[dependencies.solana-program]
+git = "https://github.com/trevor-crypto/solana.git"
+branch = "sgx"
 
 [dev-dependencies]
 solana-program-test = "1.9.5"
 solana-sdk = "1.9.5"
 
 [lib]
-crate-type = ["cdylib", "lib"]
+crate-type = ["lib"]
 
 [package.metadata.docs.rs]
 targets = ["x86_64-unknown-linux-gnu"]
