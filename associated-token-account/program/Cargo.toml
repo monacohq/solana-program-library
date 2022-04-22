@@ -20,7 +20,7 @@ borsh = "0.9.1"
 spl-token = { version = "3.3", path = "../../token/program" }
 
 [dependencies.solana-program]
-git = "https://github.com/trevor-crypto/solana.git"
+git = "https://github.com/monacohq/solana.git"
 branch = "sgx"
 
 [dev-dependencies]
