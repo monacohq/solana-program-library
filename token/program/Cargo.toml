@@ -20,7 +20,7 @@ num_enum = "0.5.4"
 thiserror = "1.0"
 
 [dependencies.solana-program]
-git = "https://github.com/trevor-crypto/solana.git"
+git = "https://github.com/monacohq/solana.git"
 branch = "sgx"
 
 [dev-dependencies]
